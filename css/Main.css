@@ -283,7 +283,7 @@
   
   
   }
-  .column {
+  .columnR {
     /* clear: both; */
     float: right;
     width: 33.33%;
@@ -305,23 +305,17 @@
   }
 
 
+  
   * {
     box-sizing: border-box;
   }
   
-  /* Create three unequal columns that floats next to each other */
-  .columnc {
+  /* Create three equal columns that floats next to each other */
+  .columnR {
     float: left;
+    width: 33.33%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
   
-  .left, .right {
-    width: 25%;
-  }
-  
-  .middle {
-    width: 50%;
   }
   
   /* Clear floats after the columns */
@@ -330,13 +324,6 @@
     display: table;
     clear: both;
   }
-  
-  
-  
-  
-  
-  
-  
   
   
   
