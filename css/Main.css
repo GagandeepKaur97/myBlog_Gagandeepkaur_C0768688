@@ -303,6 +303,35 @@
     /* float: left; */
     text-align: center;
   }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .columnc {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .rowc:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
   
   
   
