@@ -120,7 +120,7 @@
   }
   
   .data_img{
-    float: left;
+    float: bottom;
     height: 300px;
     width: 300px;
     padding-right: 2%;
@@ -288,7 +288,7 @@
     float: right;
     width: 33.33%;
     padding: 10px;
-    height: 150px;
+    height: auto;
     border: 1px solid #FA8072;
      border-radius: 2em 2em;
   }
