@@ -112,7 +112,7 @@
     clear: left;
     text-align: center;
     background-image: linear-gradient(to right, pink, white);
-    padding-top: 1%;
+    padding-top: 2%;
     padding-bottom: 1%;
   
   
@@ -287,9 +287,9 @@
     /* clear: both; */
     float: right;
     width: 33.33%;
-    padding: 10px;
-    height: auto;
-    border: 1px solid #FA8072;
+    padding: 20px;
+    height: 600px;
+    border: 2px solid #FA8072;
      border-radius: 2em 2em;
   }
   
@@ -308,6 +308,7 @@
   
   * {
     box-sizing: border-box;
+    padding: 10px;
   }
   
   /* Create three equal columns that floats next to each other */
